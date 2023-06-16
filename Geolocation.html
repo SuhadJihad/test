@@ -11,18 +11,11 @@
 
 <button onclick="getLocation()">Try It</button>
 
-<p id="demo"></p>
+
 <p "The main braanch has been changed"></p>
 <script>
 const x = document.getElementById("demo");
 
-/*function getLocation() {
-  try {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } catch {
-    x.innerHTML = err;
-  }
-}*/
 
 function showPosition(position) {
   x.innerHTML = "Latitude: " + position.coords.latitude + 
